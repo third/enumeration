@@ -66,7 +66,7 @@ Each enumeration item has a function called *.toStringValue()* which by default 
     Colors.GREEN.toStringValue();
 
   
-**2. Array of objects **
+**2. Array of objects**
 
 To specify custom string values, add a property named *stringValue* to each item in the array of objects
 
@@ -84,14 +84,14 @@ To specify custom string values, add a property named *stringValue* to each item
     Colors.GREEN    
 
     //returns "Green"
-    Colors.GREEN.toStringValue()    
+    Colors.GREEN.toStringValue();
 
 
     //specify custom string values
     var Colors = new Enumeration([{RED: 0, stringValue: 'Red Roses'}, {GREEN: 1, stringValue: 'Green Light'}, {BLUE: 2, stringValue: 'Blue Book'}]);
 
     //returns "Green Light"
-    Colors.GREEN.toStringValue()    
+    Colors.GREEN.toStringValue();
 
 
 **3. Object**
@@ -108,7 +108,7 @@ If you have created your own javascript enumeration before, chances are this is 
     var Colors = new Enumeration({RED: 0, GREEN: 1, BLUE: 2});
 
     //returns 1
-    Colors.GREEN    
+    Colors.GREEN
 
     //returns "Green"
     Colors.GREEN.toStringValue(); 
@@ -146,6 +146,6 @@ If you have created your own javascript enumeration before, chances are this is 
 **Others**
 
     //returns {"RED":0,"GREEN":100,"BLUE":200}
-    JSON.stringify(Colors)
+    JSON.stringify(Colors);
 
 

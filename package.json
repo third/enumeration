@@ -1,7 +1,7 @@
 {
   "name": "enumeration",
   "description": "A javascript-based implementation of Enumeration Type.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Third Santor",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "mocha": ">= 1.12.0",
     "should": ">= 1.2.2"
   },
-  "repository": "",
+  "repository": "https://github.com/third/enumeration",
   "keywords": [
     "enumeration",
     "enum",
